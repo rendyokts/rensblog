@@ -47,7 +47,8 @@
             </tr>
         </table>
         <div class="float-end">
-            <a href="{{ url('article') }}" class="btn btn-danger btn-sm">Back</a>
+            <a href="{{ url('article/'.$article->id.'/edit') }}" class="btn btn-primary btn-sm">Edit</a>
+            <a href="{{ url('article') }}" class="btn btn-danger btn-sm">Edit</a>
         </div>
     </div>
 </main>

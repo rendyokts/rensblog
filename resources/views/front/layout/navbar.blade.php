@@ -7,7 +7,10 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/articles') }}">Articles</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://rendyokts.vercel.app/">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://rendyokts.vercel.app/" target="_blank">Portfolio</a></li>
+                @if(auth()->user())
+                    <li class="nav-item"><a class="nav-link" href="{{ url('/dashboard') }}" target="_blank">Dashboard</a></li>
+                @endif
             </ul>
         </div>
     </div>

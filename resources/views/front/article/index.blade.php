@@ -31,7 +31,7 @@
                     <h2 class="card-title h4">{{ $item->title }}</h2>
                     <a href="{{ url('category/'.$item->Category->slug) }}" class="text-secondary">{{ $item->Category->name }}</a>
                     <p class="card-text">{{ Str::limit(strip_tags($item->desc),150,'...') }}</p>
-                    <a class="btn btn-primary" href="{{ url('p/'.$item->slug) }}">Read more →</a>
+                    <a class="btn btn-primary btn-sm" href="{{ url('p/'.$item->slug) }}">Read more →</a>
                 </div>
             </div>
         </div>
