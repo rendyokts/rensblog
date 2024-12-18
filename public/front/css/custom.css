@@ -1,0 +1,24 @@
+.featured-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: cal(0.24rem - 1px);
+}
+
+.single-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: cal(0.24rem - 1px);
+}
+
+.post-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: cal(0.24rem - 1px);
+}
+
+.card-height{
+    height: 280px;
+    position: relative;
+}
